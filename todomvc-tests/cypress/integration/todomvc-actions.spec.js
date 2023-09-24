@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+// this file is created after a tutorial from TestAutomationUniversity (https://testautomationu.applitools.com/cypress-tutorial/chapter7.html)
 
 describe('todo actions', ()=>{
     beforeEach(()=>{

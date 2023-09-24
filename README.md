@@ -46,3 +46,6 @@ npx cypress run spec .\cypress\integration\todomvc-actions.spec.js
 ```
 "test": "cypress run"
 ```
+
+
+This project is made after a [TestAutomationUniversity tutorial](https://testautomationu.applitools.com/learningpaths.html?id=cypress-path)

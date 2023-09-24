@@ -1,9 +1,10 @@
+// this file is created after a tutorial from TestAutomationUniversity (https://testautomationu.applitools.com/cypress-tutorial/chapter7.html)
 /// <reference types="cypress" />
 
 describe('filtering',()=>{
     beforeEach(()=>{
         cy.visit('http://todomvc-app-for-testing.surge.sh')
-        cy.get('.todo-list').should('not.have.descendants', 'li') //this is checking if the ul list (todo.list) have no descendats
+        cy.get('.todo-list').should('not.have.descendants', 'li') // this is checking if the ul list (todo.list) have no descendats
         cy.get('.new-todo').type("Clean room{enter}")
         cy.get('.new-todo').type("Learn JS{enter}")
         cy.get('.new-todo').type("Use Cypress{enter}")
